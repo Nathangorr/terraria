@@ -25,7 +25,7 @@ RUN mkdir /tmp/terraria && \
 
 COPY run-vanilla.sh /vanilla/run.sh
 
-RUN ["chmod", "+x", "/vanilla/run.sh”]
+RUN ["chmod", "+x", "/vanilla/run.sh"]
 
 # Commit Hash Metadata
 ARG VCS_REF
